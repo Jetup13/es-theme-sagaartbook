@@ -1,0 +1,22 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, video, grid">
+  <text name="nameLabel" extra="true">
+    <text>Moonlight</text>
+  </text>
+</view>    
+
+<view name="system">
+  <text name="sys_line2" extra="true">
+    <text>Moonlight</text>
+   </text>
+  <text name="shortdescription" extra="true">
+   <text>2018  ·  Streaming Client</text>
+  </text>
+  <text name="longdescription" extra="true">
+   <text>Moonlight is an unofficial third-party open-source client for the NVIDIA SHIELD streaming software that comes included with GeForce Experience</text>
+  </text>
+ </view>
+</theme>

@@ -1,0 +1,23 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, video, grid">
+    <text name="nameLabel" extra="true">
+    <text>Applications</text>
+  </text>
+</view>    
+
+<view name="system">
+  <text name="sys_line2" extra="true">
+    <text>Apps</text>
+
+  </text> 
+  <text name="shortdescription" extra="true">
+   <text>Standalone Applications</text>
+  </text>
+  <text name="longdescription" extra="true">
+   <text>Standalone applications and programs that can be launched</text>
+  </text>
+ </view>
+</theme>

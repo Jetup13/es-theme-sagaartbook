@@ -1,0 +1,23 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, video, grid">
+    <text name="nameLabel" extra="true">
+    <text>Nintendo 3DS</text>
+  </text>
+</view>    
+
+<view name="system">
+  <text name="sys_line2" extra="true">
+    <text>Nintendo 3DS</text>
+
+  </text> 
+  <text name="shortdescription" extra="true">
+   <text>2011  ·  Handheld Console</text>
+  </text>
+  <text name="longdescription" extra="true">
+   <text>The Nintendo 3DS is a handheld game console produced by Nintendo. It was announced in March 2010 and unveiled at E3 2010 as the successor to the Nintendo DS</text>
+  </text>
+ </view>
+</theme>

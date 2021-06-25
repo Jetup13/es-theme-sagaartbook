@@ -1,0 +1,25 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, video, grid">
+  <text name="nameLabel" extra="true">
+    <text>VMU</text>
+  </text>
+</view>    
+
+<view name="system">
+  <text name="sys_line1" extra="true">
+    <text>SEGA</text>
+   </text>
+  <text name="sys_line2" extra="true">
+    <text>VMU</text>
+   </text>
+  <text name="shortdescription" extra="true">
+   <text>1998  ·  Handheld Console</text>
+  </text>
+  <text name="longdescription" extra="true">
+   <text>The Visual Memory Unit, also referred to as the Visual Memory System in Japan and Europe, is the primary memory card produced by Sega for the Dreamcast home video game console</text>
+  </text>
+ </view>
+</theme>

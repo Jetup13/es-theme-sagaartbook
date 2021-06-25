@@ -1,0 +1,24 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, video, grid">
+  <text name="nameLabel" extra="true">
+    <text>Satellaview</text>
+  </text>
+</view>    
+
+<view name="system">
+
+  <text name="sys_line2" extra="true">
+    <text>Satellaview</text>
+
+</text>
+  <text name="shortdescription" extra="true">
+   <text>1995  ·  Console Peripheral</text>
+  </text>
+  <text name="longdescription" extra="true">
+   <text>Satellaview allowed players to download games, magazines and other forms of content through satellite broadcasts</text>
+  </text>
+ </view>
+</theme>

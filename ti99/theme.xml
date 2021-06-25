@@ -1,0 +1,23 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, video, grid">
+    <text name="nameLabel" extra="true">
+    <text>TI-99</text>
+  </text>
+</view>    
+
+<view name="system">
+  <text name="sys_line2" extra="true">
+    <text>TI-99</text>
+
+  </text>    
+  <text name="shortdescription" extra="true">
+   <text>1981  ·  Home Computer</text>
+  </text>
+  <text name="longdescription" extra="true">
+   <text>The Texas Instruments TI-99/4A is a home computer, it is a redesign of the TI-99/4 system, which was discontinued</text>
+  </text>
+ </view>
+</theme>

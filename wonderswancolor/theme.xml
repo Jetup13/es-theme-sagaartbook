@@ -1,0 +1,27 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, video, grid">
+  <text name="nameLabel" extra="true">
+    <text>Wonderswan Color</text>
+  </text>
+</view>    
+
+<view name="system">
+  <text name="sys_line1" extra="true">
+    <text>Wonderswan</text>
+
+  </text>
+  <text name="sys_line2" extra="true">
+    <text>Color</text>
+
+</text>
+  <text name="shortdescription" extra="true">
+   <text>1999  ·  Handheld Console</text>
+  </text>
+  <text name="longdescription" extra="true">
+   <text>The Bandai WonderSwan Color was released on December 9, 2000 in Japan at a retail price of ¥6,900</text>
+  </text>
+ </view>
+</theme>

@@ -1,0 +1,25 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, video, grid">
+    <text name="nameLabel" extra="true">
+    <text>CreatiVision</text>
+  </text>
+</view>    
+
+<view name="system">
+  <text name="sys_line1" extra="true">
+    <text>VTech</text>
+  </text>   
+  <text name="sys_line2" extra="true">
+    <text>CreatiVision</text>
+  </text>    
+  <text name="shortdescription" extra="true">
+   <text>1982  ·  Home Computer</text>
+  </text>
+  <text name="longdescription" extra="true">
+   <text>The Video Technology CreatiVision is a hybrid computer and home video game console introduced by VTech in 1981 and released in 1982</text>
+  </text>
+ </view>
+</theme>

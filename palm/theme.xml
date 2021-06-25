@@ -1,0 +1,22 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, video, grid">
+  <text name="nameLabel" extra="true">
+    <text>Palm OS</text>
+  </text>
+</view>    
+
+<view name="system">
+  <text name="sys_line2" extra="true">
+    <text>Palm OS</text>
+   </text>
+  <text name="shortdescription" extra="true">
+   <text>1996  ·  Handheld OS</text>
+  </text>
+  <text name="longdescription" extra="true">
+   <text>Palm OS is a discontinued mobile operating system initially developed by Palm, Inc., for personal digital assistants in 1996.</text>
+  </text>
+ </view>
+</theme>

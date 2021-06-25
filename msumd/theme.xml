@@ -1,0 +1,24 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, video, grid">
+  <text name="nameLabel" extra="true">
+    <text>MSU-MD</text>
+  </text>
+</view>    
+
+<view name="system">
+
+  <text name="sys_line2" extra="true">
+    <text>MSU-MD</text>
+
+</text>
+  <text name="shortdescription" extra="true">
+   <text>Artificial Enhancement Coprocessor</text>
+  </text>
+  <text name="longdescription" extra="true">
+   <text>The MSU-MD is a custom sound driver that enables Mode 1 and adds a convenient way for programmers to have play/stop/fade/seek functions</text>
+  </text>
+ </view>
+</theme>

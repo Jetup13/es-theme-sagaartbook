@@ -1,0 +1,25 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, video, grid">
+    <text name="nameLabel" extra="true">
+    <text>Game.com</text>
+  </text>
+</view>    
+
+<view name="system">
+  <text name="sys_line1" extra="true">
+    <text>Tiger</text>
+  </text> 
+  <text name="sys_line2" extra="true">
+    <text>Game.com</text>
+  </text>    
+  <text name="shortdescription" extra="true">
+   <text>1987  ·  Handheld Console</text>
+  </text>
+  <text name="longdescription" extra="true">
+   <text>The Game.com is a fifth-generation handheld game console released by Tiger Electronics in August 1997</text>
+  </text>
+ </view>
+</theme>

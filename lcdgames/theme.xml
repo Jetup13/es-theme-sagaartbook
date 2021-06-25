@@ -1,0 +1,25 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, video, grid">
+    <text name="nameLabel" extra="true">
+    <text>LCD Games</text>
+  </text>
+</view>    
+
+<view name="system">
+  <text name="sys_line1" extra="true">
+    <text>Handheld</text>
+  </text> 
+  <text name="sys_line2" extra="true">
+    <text>Electronic Game</text>
+  </text>    
+  <text name="shortdescription" extra="true">
+   <text>1976  ·  Handheld Console</text>
+  </text>
+  <text name="longdescription" extra="true">
+   <text>Handheld electronic games are very small, portable devices for playing interactive electronic games, often miniaturized versions of video games</text>
+  </text>
+ </view>
+</theme>

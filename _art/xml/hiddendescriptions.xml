@@ -1,0 +1,14 @@
+<theme>
+<formatVersion>7</formatVersion>
+
+    <view name="system">
+	<text name="shortdescription" extra="true">
+       <visible>false</visible>
+    </text>
+    
+    <text name="longdescription" extra="true">
+        <visible>false</visible>
+    </text>
+	</view>
+	
+</theme>

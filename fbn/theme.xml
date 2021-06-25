@@ -1,0 +1,27 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, video, grid">
+  <text name="nameLabel" extra="true">
+    <text>FBN</text>
+  </text>
+</view>    
+
+<view name="system">
+  <text name="sys_line1" extra="true">
+    <text>Final Burn</text>
+
+  </text>
+  <text name="sys_line2" extra="true">
+    <text>Neo</text>
+
+</text>
+  <text name="shortdescription" extra="true">
+   <text>Coin Operated Cabinet</text>
+  </text>
+  <text name="longdescription" extra="true">
+   <text>Final Burn Neo is an active fork of the FinalBurn Alpha emulator, created by many of the former FBA developers</text>
+  </text>
+ </view>
+</theme>

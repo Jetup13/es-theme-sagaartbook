@@ -1,0 +1,27 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, video, grid">
+  <text name="nameLabel" extra="true">
+    <text>Microvision</text>
+  </text>
+</view>    
+
+<view name="system">
+  <text name="sys_line1" extra="true">
+    <text>Milton Bradley</text>
+
+  </text>
+  <text name="sys_line2" extra="true">
+    <text>Microvision</text>
+
+</text>
+  <text name="shortdescription" extra="true">
+   <text>1979  ·  Handheld Console</text>
+  </text>
+  <text name="longdescription" extra="true">
+   <text>The Microvision is the first handheld game console that used interchangeable cartridges. It was released by the Milton Bradley Company in November 1979</text>
+  </text>
+ </view>
+</theme>

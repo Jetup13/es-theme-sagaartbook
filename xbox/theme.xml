@@ -1,0 +1,27 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, video, grid">
+  <text name="nameLabel" extra="true">
+    <text>Microsoft Xbox</text>
+  </text>
+</view>    
+
+<view name="system">
+  <text name="sys_line1" extra="true">
+    <text>Microsoft</text>
+
+  </text>
+  <text name="sys_line2" extra="true">
+    <text>Xbox</text>
+
+</text>
+  <text name="shortdescription" extra="true">
+   <text>2001  ·  Home Console</text>
+  </text>
+  <text name="longdescription" extra="true">
+   <text>The Microsoft Xbox is a sixth generation home video game console developed and distributed by Microsoft</text>
+  </text>
+ </view>
+</theme>

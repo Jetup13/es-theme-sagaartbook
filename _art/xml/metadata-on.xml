@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+
+   <view name="basic,detailed,video,grid">
+      <image name="logo">
+         <origin>0 0</origin>
+         <pos>1 1</pos>
+      </image>
+      <text name="logoText">
+         <origin>0 0</origin>
+         <pos>1 1</pos>
+      </text>
+      <text name="system-name" extra="true">
+         <pos>0.15 0.055</pos>
+         <size>0.7 0.03125</size>
+         <text>${system.fullName}</text>
+         <alignment>center</alignment>
+         <fontSize>0.028125</fontSize>
+         <fontPath>${bodyFont}</fontPath>
+         <forceUppercase>true</forceUppercase>
+      </text>
+   </view>
+
+   <view name="basic,detailed,video">
+      <textlist name="gamelist">
+         <pos>0.05 0.17</pos>
+         <size>0.9 0.825</size>
+         <lineSpacing>1.84</lineSpacing>
+      </textlist>
+   </view>
+
+   <view name="grid">
+      <imagegrid name="gamegrid">
+         <pos>0.05 0.17</pos>
+         <autoLayout>2 2</autoLayout>
+         <centerSelection>false</centerSelection>
+         <scrollDirection>vertical</scrollDirection>
+      </imagegrid>
+      <video name="md_video">
+         <visible>true</visible>
+         <snapshotSource>image</snapshotSource>
+      </video>
+      <text name="gridtile">
+         <visible>false</visible>
+      </text>
+   </view>
+
+</theme>

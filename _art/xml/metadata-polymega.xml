@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+
+   <include>./metadata-max.xml</include>
+
+   <view name="detailed,video">
+
+      <text name="system-name" extra="true">
+         <visible>false</visible>
+      </text>
+      <textlist name="gamelist">
+         <pos>1 1</pos>
+      </textlist>
+
+      <!-- Video & Screenshot -->
+      <!--<image name="md_image">
+         <origin>0.5 0.5</origin>
+         <pos>0.5 0.203125</pos>
+         <size>1 0</size>
+         <zIndex>1</zIndex>
+      </image>-->
+      <video name="md_video">
+         <origin>0.5 0.5</origin>
+         <pos>0.5 0.203125</pos>
+         <size>1 1</size>
+         <zIndex>1</zIndex>
+      </video>
+      <image name="md-media-mask" extra="true">
+         <pos>0 0.40625</pos>
+         <size>1 0.59375</size>
+         <path>./../_art/assets/metadata-polymega.svg</path>
+      </image>
+
+      <!-- Box Art & Marquee -->
+      <image name="md_image">
+         <origin>0.5 0</origin>
+         <pos>0.145833333333333 0.46875</pos><!-- 70,150 -->
+         <maxSize>0.208333333333333 0.4375</maxSize>
+      </image>
+      <!--<image name="md_marquee">
+      	<visible>true</visible>
+         <origin>0.5 0</origin>
+         <pos>0.145833333333333 0.8125</pos>
+         <maxSize>0.208333333333333 0.125</maxSize>
+      </image>-->
+
+      <!-- Favorite -->
+      <image name="md_favorite">
+         <origin>0 0</origin>
+         <pos>0.291666666666667 0.34375</pos><!-- 140,110 -->
+         <size>0.05 0.075</size><!-- 24,24 -->
+         <path>./_art/assets/icon-favorite.svg</path>
+         <zIndex>10</zIndex>
+      </image>
+
+      <!-- Name -->
+      <text name="md_name">
+         <visible>true</visible>
+         <pos>0.291666666666667 0.4625</pos><!-- 140,148 -->
+         <size>0.416666666666667 0.1125</size><!-- 200,36 -->
+         <fontSize>0.0375</fontSize><!-- 12 -->
+         <lineSpacing>1.2</lineSpacing>
+         <verticalAlignment>top</verticalAlignment>
+         <zIndex>4</zIndex>
+      </text>
+      <image name="md-name-overflow" extra="true">
+         <pos>0 0.575</pos><!-- 0,184 -->
+         <size>1 0.41875</size><!-- 480,134 -->
+         <path>${spacerImage}</path>
+         <color>111111</color>
+         <tile>true</tile>
+         <zIndex>5</zIndex>
+      </image>
+
+      <!-- Genre -->
+      <text name="md_genre">
+         <pos>0.291666666666667 0.6125</pos><!-- 140,196 -->
+         <size>0 0</size>
+         <padding>0.008333333333333 0</padding><!-- 8,0 -->
+         <backgroundColor>222222</backgroundColor>
+         <color>777777</color>
+      </text>
+
+      <!-- Rating & Release Date -->
+      <rating name="md_rating">
+         <pos>0.291666666666667 0.6915</pos><!-- 140,220 -->
+         <color>777777</color>
+      </rating>
+      <datetime name="md_releasedate">
+         <pos>0.454166666666667 0.6875</pos><!-- 218,220 -->
+         <color>777777</color>
+      </datetime>
+
+      <!-- Description -->
+      <text name="md_description">
+         <size>0.395833333333333 0.155</size><!-- 190,50 -->
+         <pos>0.291666666666667 0.775</pos><!-- 140,248 -->
+      </text>
+
+      <!-- Logo -->
+      <image name="logo">
+         <visible>true</visible>
+         <origin>0.5 0</origin>
+         <pos>0.854166666666667 0.46875</pos><!-- 410,162 -->
+         <maxSize>0.1875 0.0625</maxSize><!-- 90,20 -->
+         <color>333333</color>
+      </image>
+
+      <!-- Last Played -->
+      <text name="md_lbl_lastplayed">
+         <visible>false</visible>
+      </text>
+      <image name="md_lastplayed_icon" extra="true">
+         <pos>0.760416666666667 0.5625</pos><!-- 365,180 -->
+         <path>./../_art/assets/icon-calendar.svg</path>
+         <maxSize>0.025 0.0375</maxSize><!-- 12,12 -->
+         <color>444444</color>
+      </image>
+      <datetime name="md_lastplayed">
+         <pos>0.795833333333333 0.5625</pos><!-- 382,180 -->
+         <color>777777</color>
+         <size>0.15625 0.03125</size><!-- 75, 10 -->
+         <fontSize>0.028125</fontSize><!-- 9 -->
+         <lineSpacing>1</lineSpacing>
+      </datetime>
+
+      <!-- Last Played -->
+      <text name="md_lbl_playcount">
+         <visible>false</visible>
+      </text>
+      <image name="md_playcount_icon" extra="true">
+         <pos>0.760416666666667 0.61875</pos><!-- 365,198 -->
+         <path>./../_art/assets/icon-chart.svg</path>
+         <maxSize>0.025 0.0375</maxSize><!-- 12,12 -->
+         <color>444444</color>
+      </image>
+      <text name="md_playcount">
+         <pos>0.795833333333333 0.61875</pos><!-- 382,198 -->
+         <color>777777</color>
+         <size>0.15625 0.03125</size><!-- 75, 10 -->
+         <fontSize>0.028125</fontSize><!-- 9 -->
+         <lineSpacing>1</lineSpacing>
+      </text>
+
+      <!-- Gametime -->
+      <text name="md_lbl_gametime">
+         <visible>false</visible>
+      </text>
+      <image name="md_gametime_icon" extra="true">
+         <pos>0.760416666666667 0.675</pos><!-- 365,216 -->
+         <path>./../_art/assets/icon-clock.svg</path>
+         <maxSize>0.025 0.0375</maxSize><!-- 12,12 -->
+         <color>444444</color>
+      </image>
+      <text name="md_gametime">
+         <pos>0.795833333333333 0.675</pos><!-- 382,216 -->
+         <color>777777</color>
+         <size>0.15625 0.03125</size><!-- 75, 10 -->
+         <fontSize>0.028125</fontSize><!-- 9 -->
+         <lineSpacing>1</lineSpacing>
+      </text>
+
+      <image name="md_divider_1" extra="true">
+         <pos>0.75 0.73125</pos><!-- 360,234 -->
+         <size>0.208333333333333 0.003125</size><!-- 100,1 -->
+         <color>333333</color>
+         <zIndex>10</zIndex>
+      </image>
+
+      <!-- Players -->
+      <text name="md_lbl_players">
+         <visible>false</visible>
+      </text>
+      <image name="md_players_icon" extra="true">
+         <pos>0.760416666666667 0.75</pos><!-- 365,240 -->
+         <path>./../_art/assets/icon-players.svg</path>
+         <maxSize>0.025 0.0375</maxSize><!-- 12,12 -->
+         <color>444444</color>
+      </image>
+      <text name="md_players">
+         <origin>0 0</origin>
+         <pos>0.795833333333333 0.75</pos><!-- 382,240 -->
+         <alignment>left</alignment>
+         <size>0.15625 0.03125</size><!-- 75, 10 -->
+         <fontSize>0.028125</fontSize><!-- 9 -->
+         <lineSpacing>1</lineSpacing>
+      </text>
+
+      <image name="md_divider_2" extra="true">
+         <pos>0.75 0.80625</pos><!-- 370,258 -->
+         <size>0.208333333333333 0.003125</size><!-- 100,1 -->
+         <color>333333</color>
+         <zIndex>10</zIndex>
+      </image>
+
+      <!-- Developer -->
+      <text name="md_lbl_developer">
+         <visible>false</visible>
+      </text>
+      <image name="md_developer_icon" extra="true">
+         <pos>0.760416666666667 0.83125</pos><!-- 365,266 -->
+         <path>./../_art/assets/icon-wrench.svg</path>
+         <maxSize>0.025 0.0375</maxSize><!-- 12,12 -->
+         <color>444444</color>
+      </image>
+      <text name="md_developer">
+         <pos>0.795833333333333 0.83125</pos><!-- 382,266 -->
+         <color>777777</color>
+         <size>0.15625 0.03125</size><!-- 75, 10 -->
+         <fontSize>0.028125</fontSize><!-- 9 -->
+         <lineSpacing>1</lineSpacing>
+      </text>
+
+      <!-- Publisher -->
+      <text name="md_lbl_publisher">
+         <visible>false</visible>
+      </text>
+      <image name="md_publisher_icon" extra="true">
+         <pos>0.760416666666667 0.88125</pos><!-- 365,282 -->
+         <path>./../_art/assets/icon-ship.svg</path>
+         <maxSize>0.025 0.0375</maxSize><!-- 12,12 -->
+         <color>444444</color>
+      </image>
+      <text name="md_publisher">
+         <pos>0.795833333333333 0.88125</pos><!-- 382,282 -->
+         <color>777777</color>
+         <size>0.15625 0.03125</size><!-- 75, 10 -->
+         <fontSize>0.028125</fontSize><!-- 9 -->
+         <lineSpacing>1</lineSpacing>
+      </text>
+
+   </view>
+
+</theme>

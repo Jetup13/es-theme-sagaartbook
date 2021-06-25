@@ -1,0 +1,22 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, video, grid">
+    <text name="nameLabel" extra="true">
+    <text>ChaiLove</text>
+  </text>
+</view>    
+
+<view name="system">
+  <text name="sys_line2" extra="true">
+    <text>LOVE</text>
+  </text>    
+  <text name="shortdescription" extra="true">
+   <text>2017  ·  2D Game Engine</text>
+  </text>
+  <text name="longdescription" extra="true">
+   <text>ChaiLove, an experiment in porting LOVE to ChaiScript</text>
+  </text>
+ </view>
+</theme>

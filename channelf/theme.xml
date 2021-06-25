@@ -1,0 +1,25 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, video, grid">
+    <text name="nameLabel" extra="true">
+    <text>Channel F</text>
+  </text>
+</view>    
+
+<view name="system">
+  <text name="sys_line1" extra="true">
+    <text>Fairchild</text>
+  </text> 
+  <text name="sys_line2" extra="true">
+    <text>Channel F</text>
+  </text>    
+  <text name="shortdescription" extra="true">
+   <text>1976  ·  Home Console</text>
+  </text>
+  <text name="longdescription" extra="true">
+   <text>The Fairchild Channel F is a home video game console released 1976. It has the distinction of being the first programmable ROM cartridge–based video game console, and the first console to use a microprocessor</text>
+  </text>
+ </view>
+</theme>

@@ -1,0 +1,257 @@
+<!--
+Theme name:  Saga ArtBook
+Theme by:    Jetup13
+Version:     1.0
+Original:    ArtBook 3:2 by anthonycaccese https://github.com/anthonycaccese/es-theme-art-book-3-2
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+
+    <include>./_art/xml/hidden.xml</include>
+    <include>./_art/xml/hiddendescriptions.xml</include>
+	
+	<variables>
+      <Font>./_art/Acre.otf</Font>
+    </variables>
+
+    <view name="system">
+    <carousel name="systemcarousel">
+        <color>00000000</color>
+        <origin>0 0</origin>
+        <pos>0 0</pos>
+        <size>1 1</size>
+        <logoScale>1</logoScale>
+        <logoSize>0.5 0.5</logoSize>
+        <maxLogoCount>1</maxLogoCount>
+    </carousel>
+	
+    <image name="logo">
+		 <path>./_art/logos/white/${system.theme}.png</path>
+    </image>
+	
+	<text name="systemInfo">
+        <fontPath>${Font}</fontPath>
+        <alignment>left</alignment>
+        <backgroundColor>00000000</backgroundColor>
+        <forceUppercase>1</forceUppercase>
+        <color>ffffff0</color>
+        <origin>0 0</origin>
+        <pos>0.003 0.6</pos>
+        <size>0.400 0.039</size>
+        <fontSize>0.0315</fontSize>
+    </text>
+   </view>	
+
+   <view name="basic,detailed,video,grid">
+      <image name="background" extra="true">
+         <color>000000</color>
+      </image>
+      <image name="logo">
+	     <path>./_art/logos/white/${system.theme}.png</path>
+         <origin>0.5 0.5</origin>
+         <pos>0.5 0.18</pos>
+         <maxSize>0.4 0.15</maxSize>
+      </image>
+      <text name="logoText">
+         <pos>0.05 0.14</pos>
+         <size>0.9 0.075</size>
+         <fontSize>0.06</fontSize>
+         <color>ffffffcc</color>
+      </text>
+      <text name="system-name" extra="true">
+         <color>ffffffcc</color>
+      </text>
+   </view>
+
+   <view name="basic,detailed,video">
+      <textlist name="gamelist">
+         <pos>0.05 0.335</pos>
+         <size>0.9 0.64</size>
+         <alignment>center</alignment>
+         <lineSpacing>1.4</lineSpacing>
+         <fontSize>0.04</fontSize>
+         <fontPath>${Font}</fontPath>
+		 <scrollSound>./_art/assets/scroll.wav</scrollSound>
+         <horizontalMargin>0.008</horizontalMargin>
+         <selectorColor>0000000</selectorColor>
+         <selectedColor>ffffff</selectedColor>
+         <primaryColor>ffffff44</primaryColor>
+         <secondaryColor>ffffff44</secondaryColor>
+      </textlist>
+   </view>
+   
+  <view name="detailed,video,grid">
+      <text name="md_lbl_rating,md_lbl_developer,md_developer,md_lbl_publisher,md_publisher,md_lbl_playcount,md_playcount,md_lbl_lastplayed,md_lbl_players,md_players,md_lbl_releasedate,md_lbl_genre,md_genre,md_description,md_name,md_lbl_gametime,md_gametime">
+         <visible>false</visible>
+         <fontPath>${Font}</fontPath>
+         <alignment>left</alignment>
+         <color>ffffff</color>
+      </text>
+      <text name="md_genre,md_lbl_players,md_players">
+         <color>777777</color>
+      </text>
+      <text name="md_description">
+         <color>999999</color>
+      </text>
+      <text name="md_lbl_lastplayed,md_lbl_playcount,md_playcount,md_lbl_developer,md_developer,md_lbl_publisher,md_publisher,md_lbl_gametime,md_gametime">
+         <color>444444</color>
+      </text>
+      <datetime name="md_releasedate,md_lastplayed">
+         <visible>false</visible>
+         <fontPath>${Font}</fontPath>
+         <color>444444</color>
+         <alignment>left</alignment>
+      </datetime>
+      <rating name="md_rating">
+         <visible>false</visible>
+         <fontPath>${Font}</fontPath>
+         <color>444444</color>
+         <alignment>left</alignment>
+      </rating>
+      <text name="md_spacer" extra="true">
+         <color>222222</color>
+      </text>
+      <textlist name="gamelist">
+         <pos>0.05 0.335</pos>
+         <size>0.42 0.64</size>
+         <alignment>left</alignment>
+      </textlist>
+      <image name="md_image">
+         <origin>0.5 0.5</origin>
+         <pos>0.7375 0.578</pos>
+         <maxSize>0.4 0.45</maxSize>
+      </image>
+      <image name="md-media-mask" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <zIndex>3</zIndex>
+      </image>
+   </view>
+
+   <view name="video,grid">
+      <image name="md_marquee">
+         <visible>false</visible>
+      </image>
+      <image name="md_image">
+         <visible>false</visible>
+      </image>
+      <video name="md_video">
+         <origin>0.5 0.5</origin>
+         <pos>0.7375 0.578</pos>
+         <maxSize>0.4 0.45</maxSize>
+         <delay>0.5</delay>
+         <showSnapshotDelay>true</showSnapshotDelay>
+         <showSnapshotNoVideo>true</showSnapshotNoVideo>
+         <snapshotSource>image</snapshotSource>
+         <snapshotSource>thumbnail</snapshotSource>
+         <zIndex>2</zIndex>
+      </video>
+   </view>
+
+   <view name="grid">
+      <image name="md_image,md_media_bezel,md_media_screen,help-favorite,help-launch">
+         <visible>false</visible>
+      </image>
+      <video name="md_video">
+         <visible>false</visible>
+         <showSnapshotDelay>false</showSnapshotDelay>
+      </video>
+      <imagegrid name="gamegrid">
+         <pos>0.05 0.325</pos>
+         <size>0.9 0.60</size>
+         <margin>0 0</margin>
+         <padding>0 0 0 0</padding>
+         <autoLayout>3 1</autoLayout>
+         <autoLayoutSelectedZoom>1.0</autoLayoutSelectedZoom>
+         <centerSelection>true</centerSelection>
+         <animateSelection>false</animateSelection>
+         <scrollSound>./_art/assets/scroll.wav</scrollSound>
+         <scrollDirection>horizontal</scrollDirection>
+         <scrollLoop>true</scrollLoop>
+      </imagegrid>
+      <gridtile name="default">
+         <padding>5 5</padding>
+         <backgroundCornerSize>0 0</backgroundCornerSize>
+         <selectionMode>image</selectionMode>
+         <backgroundColor>11111100</backgroundColor>
+         <imageColor>ffffff44</imageColor>
+      </gridtile>
+      <gridtile name="selected">
+         <backgroundColor>ffffff11</backgroundColor>
+         <imageColor>ffffffff</imageColor>
+      </gridtile>
+      <text name="gridtile">
+         <alignment>center</alignment>
+         <fontPath>${Font}</fontPath>
+         <fontSize>0.036</fontSize>
+         <lineSpacing>1.2</lineSpacing>
+         <color>111111</color>
+      </text>
+      <text name="gridtile_selected">
+         <color>cccccc</color>
+      </text>
+   </view>
+	
+	<view name="system, video, detailed, basic, grid">
+	<helpsystem name="help">
+		<origin>2 2</origin>
+    </helpsystem>
+	</view>
+
+    <view name="menu">
+    <menuBackground name="menubg">
+	 <color>202020</color>
+    </menuBackground>
+	
+	<menuText name="menutext, menutitle">
+	  <fontPath>${Font}</fontPath>
+	  <fontSize>.038</fontSize>
+	  <color>ffffff</color>
+	</menuText>
+	
+	<menuText name="menufooter, menutextsmall">
+      <fontPath>${Font}</fontPath>
+      <fontSize>.029</fontSize>		 
+      <color>ffffff</color>
+    </menuText>
+	
+	<menuTextEdit name="menutextedit">
+      <inactive>./_art/assets/textinput_inactive.png</inactive>
+      <active>./_art/assets/textinput_active.png</active>
+    </menuTextEdit>
+	</view>
+	
+	<view name="screen">
+   
+    <text name="clock">
+	  <fontPath>${Font}</fontPath>
+      <fontSize>0.04</fontSize>
+	  <color>ffffff44</color>
+      <pos>0.06 .05</pos>
+      <size>0.4 0.039</size>
+      <alignment>left</alignment>
+      <verticalAlignment>center</verticalAlignment>
+    </text>
+    </view>
+	
+	<subset name="metadata" displayName="Gamelist View Style">
+      <include name="off" displayName="No Metadata">./_art/xml/metadata-off.xml</include>
+      <include name="min" displayName="Minimum Metadata">./_art/xml/metadata-min.xml</include>
+      <include name="min-flipped" displayName="Minimum Metadata (Flipped)">./_art/xml/metadata-min-flipped.xml</include>
+      <include name="max" displayName="Maxium Metadata">./_art/xml/metadata-max.xml</include>
+      <include name="max-flipped" displayName="Maxium Metadata (Flipped)">./_art/xml/metadata-max-flipped.xml</include>
+      <include name="media-only" displayName="Media Only">./_art/xml/metadata-media-only.xml</include>
+      <include name="polymega" displayName="Polymega">./_art/xml/metadata-polymega.xml</include>
+    </subset>
+	
+   <subset name="background" displayName="System Background">
+      <include name="off" displayName="Off">./_art/xml/offbackground.xml</include>
+	  <include name="screenshot" displayName="Screenshot">./_art/xml/screenshotbackground.xml</include>
+	  <include name="artwork32" displayName="Artwork 3:2">./_art/xml/artworkbackground32.xml</include>
+	  <include name="artwork43" displayName="Artwork 4:3">./_art/xml/artworkbackground43.xml</include>
+	  <include name="artwork169" displayName="Artwork 16:9">./_art/xml/artworkbackground169.xml</include>
+   </subset>
+	
+</theme>

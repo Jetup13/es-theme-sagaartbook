@@ -1,0 +1,25 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, video, grid">
+    <text name="nameLabel" extra="true">
+    <text>BBC</text>
+  </text>
+</view>    
+
+<view name="system">
+  <text name="sys_line2" extra="true">
+    <text>Acorn Computers</text>
+  </text>  
+  <text name="sys_line2" extra="true">
+    <text>BBC</text>
+  </text>    
+  <text name="shortdescription" extra="true">
+   <text>1981  ·  Home Computer</text>
+  </text>
+  <text name="longdescription" extra="true">
+   <text>The BBC Micro is a series of microcomputers designed by Acorn Computers Ltd</text>
+  </text>
+ </view>
+</theme>

@@ -1,0 +1,24 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, video, grid">
+  <text name="nameLabel" extra="true">
+    <text>SNES MSU-1</text>
+  </text>
+</view>    
+
+<view name="system">
+
+  <text name="sys_line2" extra="true">
+    <text>MSU-1</text>
+
+</text>
+  <text name="shortdescription" extra="true">
+   <text>Artificial Enhancement Coprocessor</text>
+  </text>
+  <text name="longdescription" extra="true">
+   <text>The MSU-1 chip is a Super Nintendo enhancement chip created by Higan emulator creator byuu. MSU stands for "Media Streaming Unit 1"</text>
+  </text>
+ </view>
+</theme>

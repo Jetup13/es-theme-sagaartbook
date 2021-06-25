@@ -1,0 +1,25 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, video, grid">
+    <text name="nameLabel" extra="true">
+    <text>Konami LCD Games</text>
+  </text>
+</view>    
+
+<view name="system">
+  <text name="sys_line1" extra="true">
+    <text>Konami</text>
+  </text> 
+  <text name="sys_line2" extra="true">
+    <text>Electronic Game</text>
+  </text>    
+  <text name="shortdescription" extra="true">
+   <text>1982  ·  Handheld Console</text>
+  </text>
+  <text name="longdescription" extra="true">
+   <text>Handheld Electronic Games released by Konami</text>
+  </text>
+ </view>
+</theme>

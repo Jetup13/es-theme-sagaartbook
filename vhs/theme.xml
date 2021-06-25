@@ -1,0 +1,22 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, video, grid">
+  <text name="nameLabel" extra="true">
+    <text>Movies</text>
+  </text>
+</view>    
+
+<view name="system">
+  <text name="sys_line2" extra="true">
+    <text>Movies</text>
+</text>
+  <text name="shortdescription" extra="true">
+   <text>Media Player</text>
+  </text>
+  <text name="longdescription" extra="true">
+   <text>Media Player for Movies. Supported formats: .mp4 .avi .mpeg .mkv</text>
+  </text>
+ </view>
+</theme>

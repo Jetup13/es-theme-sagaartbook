@@ -1,0 +1,23 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, video, grid">
+    <text name="nameLabel" extra="true">
+    <text>OpenBOR</text>
+  </text>
+</view>    
+
+<view name="system">
+  <text name="sys_line2" extra="true">
+    <text>OpenBOR</text>
+
+  </text> 
+  <text name="shortdescription" extra="true">
+   <text>OpenBOR · Open Beats of Rage Engine</text>
+  </text>
+  <text name="longdescription" extra="true">
+   <text>OpenBOR is a royalty free sprite based side scrolling gaming engine</text>
+  </text>
+ </view>
+</theme>

@@ -1,0 +1,23 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, video, grid">
+    <text name="nameLabel" extra="true">
+    <text>MSX 2</text>
+  </text>
+</view>    
+
+<view name="system">
+  <text name="sys_line2" extra="true">
+    <text>MSX 2</text>
+
+  </text> 
+  <text name="shortdescription" extra="true">
+   <text>1984  ·  Home Computer</text>
+  </text>
+  <text name="longdescription" extra="true">
+   <text>The MSX2 was the second generation of the MSX1 standard released by Microsoft in 1985.</text>
+  </text>
+ </view>
+</theme>

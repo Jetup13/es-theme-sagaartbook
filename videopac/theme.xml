@@ -1,0 +1,27 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, video, grid">
+  <text name="nameLabel" extra="true">
+    <text>Videopac</text>
+  </text>
+</view>    
+
+<view name="system">
+  <text name="sys_line1" extra="true">
+    <text>Philips</text>
+
+  </text>
+  <text name="sys_line2" extra="true">
+    <text>Videopac</text>
+
+</text>
+  <text name="shortdescription" extra="true">
+   <text>1978  ·  Home Console</text>
+  </text>
+  <text name="longdescription" extra="true">
+   <text>The Videopac is a game console marketed by Philips in 1978. It was the European version of the Magnavox Odyssey2 console</text>
+  </text>
+ </view>
+</theme>

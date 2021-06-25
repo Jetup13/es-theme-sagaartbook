@@ -1,0 +1,22 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, video, grid">
+    <text name="nameLabel" extra="true">
+    <text>Mega Duck</text>
+  </text>
+</view>    
+
+<view name="system">
+  <text name="sys_line2" extra="true">
+    <text>Mega Duck</text>
+  </text>    
+  <text name="shortdescription" extra="true">
+   <text>1993  ·  Handheld Console</text>
+  </text>
+  <text name="longdescription" extra="true">
+   <text>The Mega Duck is a handheld game console that was developed and manufactured by Hong Kong-based Welback Holdings released in 1993</text>
+  </text>
+ </view>
+</theme>

@@ -1,0 +1,23 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, video, grid">
+  <text name="nameLabel" extra="true">
+    <text>Uzebox</text>
+  </text>
+</view>    
+
+<view name="system">
+  <text name="sys_line2" extra="true">
+    <text>Uzebox</text>
+
+</text>
+  <text name="shortdescription" extra="true">
+   <text>2008  ·  Open Source Console</text>
+  </text>
+  <text name="longdescription" extra="true">
+   <text>The Uzebox is a retro-minimalist 8-bit open source game console. It is based on an AVR 8-bit general purpose microcontroller made by Atmel</text>
+  </text>
+ </view>
+</theme>

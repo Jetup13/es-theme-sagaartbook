@@ -1,0 +1,17 @@
+<theme>
+<formatVersion>7</formatVersion>
+	<view name="basic,video,detailed,grid">
+	<text name="nameLabel" extra="true">
+    <visible>false</visible>
+    </text>
+	</view>
+	
+	<view name="system">
+	<text name="sys_line1" extra="true">
+    <visible>false</visible>
+    </text>
+	<text name="sys_line2" extra="true">
+    <visible>false</visible>
+    </text>
+    </view>
+</theme>

@@ -1,0 +1,25 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, video, grid">
+    <text name="nameLabel" extra="true">
+    <text>Tiger R-Zone</text>
+  </text>
+</view>    
+
+<view name="system">
+  <text name="sys_line1" extra="true">
+    <text>Tiger</text>
+  </text> 
+  <text name="sys_line2" extra="true">
+    <text>R-Zone</text>
+  </text>    
+  <text name="shortdescription" extra="true">
+   <text>1995  ·  Handheld Console</text>
+  </text>
+  <text name="longdescription" extra="true">
+   <text>The R-Zone is a portable game console developed and manufactured by Tiger Electronics</text>
+  </text>
+ </view>
+</theme>
