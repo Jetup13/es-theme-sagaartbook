@@ -1,5 +1,11 @@
 <theme>
 <formatVersion>7</formatVersion>
+
+   <subset name="screenshotoverlay" displayName="Screenshot Overlay">
+	  <include name="dark" displayName="Dark">./../../_art/xml/screenshotoverlaydark.xml</include>
+	  <include name="light" displayName="Light">./../../_art/xml/screenshotoverlaylight.xml</include>
+	  <include name="off" displayName="Off"/>
+   </subset>
 	<view name="system,basic">
 		<image name="bg" extra="true">
         <path>./../_art/assets/bgoverlay.png</path>
@@ -12,16 +18,8 @@
 	</view>
 
     <view name="system">
-	<image name="ssoverlay1" extra="true">
-        <path>./../_art/assets/a.png</path>
-        <tile>false</tile>
-        <origin>0.5 0.5</origin>
-        <pos>0.5 0.5</pos>
-        <maxSize>1 1</maxSize>
-		<zIndex>2</zIndex>
-    </image>
 	<image name="ssoverlay2" extra="true">
-        <path>./../_art/assets/b.png</path>
+        <path>./../_art/assets/slice.png</path>
         <tile>false</tile>
         <origin>0.5 0.5</origin>
         <pos>0.5 0.5</pos>

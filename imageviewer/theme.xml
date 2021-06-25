@@ -1,0 +1,25 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, video, grid">
+  <text name="nameLabel" extra="true">
+    <text>Image Viewer</text>
+  </text>
+</view>    
+
+<view name="system">
+  <text name="sys_line1" extra="true">
+    <text>Image</text>
+</text>
+  <text name="sys_line2" extra="true">
+    <text>Viewer</text>
+</text>
+  <text name="shortdescription" extra="true">
+   <text>Media Display</text>
+  </text>
+  <text name="longdescription" extra="true">
+   <text>Supported formats: .jpg .jpeg .png .bmp .psd .tga .gif .hdr .pic .ppm .pgm .mkv .pdf .mp4 .avi</text>
+  </text>
+ </view>
+</theme>
