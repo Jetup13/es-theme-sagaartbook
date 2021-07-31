@@ -1,0 +1,23 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, video, grid">
+    <text name="nameLabel" extra="true">
+    <text>Wolfenstein</text>
+  </text>
+</view>    
+
+<view name="system">
+  <text name="sys_line2" extra="true">
+    <text>Wolfenstein</text>
+
+  </text> 
+  <text name="shortdescription" extra="true">
+   <text>ECWolf · Wolfenstein Engine</text>
+  </text>
+  <text name="longdescription" extra="true">
+   <text>ECWolf is an advanced source port for Wolfenstein 3D based off of the Wolf4SDL code base</text>
+  </text>
+ </view>
+</theme>
