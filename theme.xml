@@ -147,6 +147,7 @@ Original:    ArtBook 3:2 by anthonycaccese https://github.com/anthonycaccese/es-
          <snapshotSource>image</snapshotSource>
          <snapshotSource>thumbnail</snapshotSource>
          <zIndex>2</zIndex>
+		 <effect>none</effect>
       </video>
    </view>
 
