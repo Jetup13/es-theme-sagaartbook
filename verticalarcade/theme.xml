@@ -1,0 +1,27 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, video, grid">
+  <text name="nameLabel" extra="true">
+    <text>Vertical Arcade</text>
+  </text>
+</view>    
+
+<view name="system">
+  <text name="sys_line1" extra="true">
+    <text>Vertical</text>
+
+  </text>
+  <text name="sys_line2" extra="true">
+    <text>Arcade</text>
+
+</text>
+  <text name="shortdescription" extra="true">
+   <text>Coin Operated Cabinet</text>
+  </text>
+  <text name="longdescription" extra="true">
+   <text>Coin-operated entertainment machines in T.A.T.E mode.</text>
+  </text>
+ </view>
+</theme>
