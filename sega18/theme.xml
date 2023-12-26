@@ -1,0 +1,23 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, video, grid">
+  <text name="nameLabel" extra="true">
+    <text>SEGA System 18</text>
+  </text>
+</view>    
+
+<view name="system">
+  <text name="sys_line2" extra="true">
+    <text>SEGA System 18</text>
+
+</text>
+  <text name="shortdescription" extra="true">
+   <text>1989  ·  Arcade Board</text>
+  </text>
+  <text name="longdescription" extra="true">
+   <text>The System 18 is primarily a soup-ed System 16, offering superior sound, more tile layers and extra graphics options</text>
+  </text>
+ </view>
+</theme>

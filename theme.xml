@@ -16,20 +16,6 @@ Original:    ArtBook 3:2 by anthonycaccese https://github.com/anthonycaccese/es-
     </variables>
 
     <view name="system">
-    <carousel name="systemcarousel">
-        <color>00000000</color>
-        <origin>0 0</origin>
-        <pos>0 0</pos>
-        <size>1 1</size>
-        <logoScale>1</logoScale>
-        <logoSize>0.5 0.5</logoSize>
-        <maxLogoCount>1</maxLogoCount>
-    </carousel>
-	
-    <image name="logo">
-		 <path>./_art/logos/white/${system.theme}.png</path>
-    </image>
-	
 	<text name="systemInfo">
         <fontPath>${Font}</fontPath>
         <alignment>left</alignment>
@@ -64,10 +50,27 @@ Original:    ArtBook 3:2 by anthonycaccese https://github.com/anthonycaccese/es-
       </text>
    </view>
 
-   <view name="basic,detailed,video">
+   <view name="basic">
       <textlist name="gamelist">
-         <pos>0.05 0.335</pos>
-         <size>0.9 0.64</size>
+         <pos>0.05 0.25</pos>
+         <size>0.9 0.75</size>
+         <alignment>center</alignment>
+         <lineSpacing>1.4</lineSpacing>
+         <fontSize>0.04</fontSize>
+         <fontPath>${Font}</fontPath>
+		 <scrollSound>./_art/assets/scroll.wav</scrollSound>
+         <horizontalMargin>0.008</horizontalMargin>
+         <selectorColor>0000000</selectorColor>
+         <selectedColor>ffffff</selectedColor>
+         <primaryColor>ffffff44</primaryColor>
+         <secondaryColor>ffffff44</secondaryColor>
+      </textlist>
+   </view>
+
+   <view name="detailed,video">
+      <textlist name="gamelist">
+         <pos>0.05 0.25</pos>
+         <size>0.9 0.75</size>
          <alignment>center</alignment>
          <lineSpacing>1.4</lineSpacing>
          <fontSize>0.04</fontSize>
@@ -238,21 +241,15 @@ Original:    ArtBook 3:2 by anthonycaccese https://github.com/anthonycaccese/es-
     </view>
 	
 	<subset name="metadata" displayName="Gamelist View Style">
-      <include name="off" displayName="No Metadata">./_art/xml/metadata-off.xml</include>
       <include name="min" displayName="Minimum Metadata">./_art/xml/metadata-min.xml</include>
-      <include name="min-flipped" displayName="Minimum Metadata (Flipped)">./_art/xml/metadata-min-flipped.xml</include>
       <include name="max" displayName="Maxium Metadata">./_art/xml/metadata-max.xml</include>
-      <include name="max-flipped" displayName="Maxium Metadata (Flipped)">./_art/xml/metadata-max-flipped.xml</include>
       <include name="media-only" displayName="Media Only">./_art/xml/metadata-media-only.xml</include>
-      <include name="polymega" displayName="Polymega">./_art/xml/metadata-polymega.xml</include>
-    </subset>
+	  </subset>
 	
    <subset name="background" displayName="System Background">
       <include name="off" displayName="Off">./_art/xml/offbackground.xml</include>
 	  <include name="screenshot" displayName="Screenshot">./_art/xml/screenshotbackground.xml</include>
-	  <include name="artwork32" displayName="Artwork 3:2">./_art/xml/artworkbackground32.xml</include>
-	  <include name="artwork43" displayName="Artwork 4:3">./_art/xml/artworkbackground43.xml</include>
-	  <include name="artwork169" displayName="Artwork 16:9">./_art/xml/artworkbackground169.xml</include>
+      <include name="slice" displayName="Screenshot (Carousel)">./_art/xml/slice.xml</include>
    </subset>
 	
 </theme>

@@ -23,7 +23,7 @@
          <unfilledPath>./../_art/assets/star_empty.png</unfilledPath>
       </rating>
       <datetime name="md_releasedate">
-         <visible>true</visible>
+         <visible>false</visible>
          <pos>0.6975 .762</pos>
          <size>0.1666666666666667 0.05</size>
          <fontSize>0.03</fontSize>

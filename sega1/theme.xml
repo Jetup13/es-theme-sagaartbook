@@ -1,0 +1,23 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, video, grid">
+  <text name="nameLabel" extra="true">
+    <text>SEGA System 1</text>
+  </text>
+</view>    
+
+<view name="system">
+  <text name="sys_line2" extra="true">
+    <text>SEGA System 1</text>
+
+</text>
+  <text name="shortdescription" extra="true">
+   <text>1983  ·  Arcade Board</text>
+  </text>
+  <text name="longdescription" extra="true">
+   <text>The Sega System 1 is an arcade platform officially debuted by Sega in 1983 based on earlier 1982 prototype hardware. It is a Z80-based platform and the first in the decade-long "System" series of arcade boards</text>
+  </text>
+ </view>
+</theme>

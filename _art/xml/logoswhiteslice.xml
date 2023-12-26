@@ -1,0 +1,13 @@
+<theme>
+<formatVersion>7</formatVersion>
+    <view name="system">
+    <image name="logoimage" extra="true">
+        <path>./../_art/logos/white/${system.theme}.png</path>
+        <tile>false</tile>
+        <origin>0.5 0.5</origin>
+        <pos>0.5 0.5</pos>
+        <maxSize>.5 .5</maxSize>
+		<zIndex>99</zIndex>
+    </image>
+   </view>	
+</theme>

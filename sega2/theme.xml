@@ -1,0 +1,23 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, video, grid">
+  <text name="nameLabel" extra="true">
+    <text>SEGA System 2</text>
+  </text>
+</view>    
+
+<view name="system">
+  <text name="sys_line2" extra="true">
+    <text>SEGA System 2</text>
+
+</text>
+  <text name="shortdescription" extra="true">
+   <text>1985  ·  Arcade Board</text>
+  </text>
+  <text name="longdescription" extra="true">
+   <text>The Sega System 2 is an arcade platform introduced by Sega in 1985. It is a successor to the Sega System 1, though largely an upgrade, utilising the same Zilog Z80 CPU, sound chips, and Sega graphics chipset</text>
+  </text>
+ </view>
+</theme>

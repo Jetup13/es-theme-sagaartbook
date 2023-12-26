@@ -1,0 +1,9 @@
+<theme>
+<formatVersion>7</formatVersion>
+    <view name="system">
+    <carousel name="systemcarousel">
+        <logoSize>1 1.12</logoSize>
+        <maxLogoCount>1.5</maxLogoCount>
+    </carousel>
+   </view>	
+</theme>

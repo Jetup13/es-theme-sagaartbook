@@ -3,23 +3,21 @@
 <include>./../theme.xml</include>
 
 <view name="basic, detailed, video, grid">
-  <text name="nameLabel" extra="true">
-    <text>Image Viewer</text>
+    <text name="nameLabel" extra="true">
+    <text>Screenshots</text>
   </text>
 </view>    
 
 <view name="system">
-  <text name="sys_line1" extra="true">
-    <text>Image</text>
-</text>
   <text name="sys_line2" extra="true">
-    <text>Viewer</text>
-</text>
+    <text>Image Viewer</text>
+
+  </text>    
   <text name="shortdescription" extra="true">
-   <text>Media Display</text>
+   <text>Images</text>
   </text>
   <text name="longdescription" extra="true">
-   <text>Supported formats: .jpg .jpeg .png .bmp .psd .tga .gif .hdr .pic .ppm .pgm .mkv .pdf .mp4 .avi</text>
+   <text>Screenshots of games you've taken!</text>
   </text>
  </view>
 </theme>

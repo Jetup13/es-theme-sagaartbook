@@ -3,21 +3,25 @@
 <include>./../theme.xml</include>
 
 <view name="basic, detailed, video, grid">
-    <text name="nameLabel" extra="true">
+  <text name="nameLabel" extra="true">
     <text>Pokemon Hacks</text>
   </text>
 </view>    
 
 <view name="system">
-  <text name="sys_line2" extra="true">
-    <text>Custom</text>
+  <text name="sys_line1" extra="true">
+    <text>Pokemon</text>
 
-  </text>  
+  </text>
+  <text name="sys_line2" extra="true">
+    <text>Hacks</text>
+
+</text>
   <text name="shortdescription" extra="true">
-   <text>All Consoles / Handhelds</text>
+   <text>Pokemon Hacks</text>
   </text>
   <text name="longdescription" extra="true">
-   <text>Pokemon ROM Hacks</text>
+   <text>A collection of various Pokemon ROM hacks.</text>
   </text>
  </view>
 </theme>

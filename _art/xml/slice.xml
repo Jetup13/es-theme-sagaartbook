@@ -1,0 +1,47 @@
+<theme>
+<formatVersion>7</formatVersion>
+
+   <subset name="ssslice" displayName="Screen Size">
+      <include name="16x9" displayName="16x9">./slice16x9.xml</include>
+      <include name="4x3" displayName="4x3">./slice4x3.xml</include>
+      <include name="3x2" displayName="3x2">./slice3x2.xml</include>
+      <include name="1x1" displayName="1x1">./slice1x1.xml</include>
+   </subset>
+
+   <subset name="ssslice" displayName="Screen Size">
+      <include name="16x9" displayName="16x9">./slice16x9.xml</include>
+      <include name="4x3" displayName="4x3">./slice4x3.xml</include>
+      <include name="3x2" displayName="3x2">./slice3x2.xml</include>
+      <include name="1x1" displayName="1x1">./slice1x1.xml</include>
+   </subset>
+
+   <subset name="logocolor" displayName="Logo Color">
+      <include name="white" displayName="White">./logoswhiteslice.xml</include>
+      <include name="color" displayName="Color">./logoscolorslice.xml</include>
+   </subset>
+
+	<view name="system,basic">
+		<image name="bg" extra="true">
+        <path>./../_art/assets/bgoverlay.png</path>
+        <tile>true</tile>
+        <origin>0.5 0.5</origin>
+        <pos>0.5 0.5</pos>
+        <size>1 1</size>
+		<zIndex>0</zIndex>
+    </image>
+	</view>
+
+    <view name="system">
+    <carousel name="systemcarousel">
+        <color>00000000</color>
+        <origin>0 0</origin>
+        <pos>0 0</pos>
+        <size>1 1</size>
+        <logoScale>1</logoScale>
+    </carousel>
+	
+    <image name="logo">
+		 <path>./../_art/screenshots/${system.theme}.png</path>
+    </image>
+   </view>	
+</theme>

@@ -1,0 +1,23 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, video, grid">
+  <text name="nameLabel" extra="true">
+    <text>SEGA System 32</text>
+  </text>
+</view>    
+
+<view name="system">
+  <text name="sys_line2" extra="true">
+    <text>SEGA System 32</text>
+
+</text>
+  <text name="shortdescription" extra="true">
+   <text>1990  ·  Arcade Board</text>
+  </text>
+  <text name="longdescription" extra="true">
+   <text>Sega System 32 is the name of an arcade platform released by Sega that debuted in 1990</text>
+  </text>
+ </view>
+</theme>

@@ -1,0 +1,22 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, video, grid">
+    <text name="nameLabel" extra="true">
+    <text>Enterprise</text>
+  </text>
+</view>    
+
+<view name="system">
+  <text name="sys_line2" extra="true">
+    <text>Enterprise</text>
+  </text>    
+  <text name="shortdescription" extra="true">
+   <text>1985  ·  Home Computer</text>
+  </text>
+  <text name="longdescription" extra="true">
+   <text>The Enterprise (aka Elan) is a Zilog Z80-based home computer first produced in 1985. It was developed by British company Intelligent Software and marketed by Enterprise Computers</text>
+  </text>
+ </view>
+</theme>

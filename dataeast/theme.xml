@@ -1,0 +1,23 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, video, grid">
+    <text name="nameLabel" extra="true">
+    <text>Data East</text>
+  </text>
+</view>    
+
+<view name="system">
+  <text name="sys_line2" extra="true">
+    <text>Data East</text>
+
+  </text> 
+  <text name="shortdescription" extra="true">
+   <text>1976  ·  Arcade Board</text>
+  </text>
+  <text name="longdescription" extra="true">
+   <text>Data East Corporation was a Japanese video game, pinball and electronic engineering company</text>
+  </text>
+ </view>
+</theme>
