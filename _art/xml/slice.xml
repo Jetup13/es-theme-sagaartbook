@@ -39,6 +39,15 @@
         <size>1 1</size>
         <logoScale>1</logoScale>
     </carousel>
+
+    <image name="image2" extra="true">
+        <path>./../_art/assets/clearoverlay2.png</path>
+        <tile>true</tile>
+        <origin>0.5 0.5</origin>
+        <pos>0.5 0.5</pos>
+        <maxSize>1 1</maxSize>
+        <zIndex>98</zIndex>
+    </image>
 	
     <image name="logo">
 		 <path>./../_art/screenshots/${system.theme}.png</path>
