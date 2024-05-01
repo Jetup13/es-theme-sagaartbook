@@ -1,0 +1,22 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, video, grid">
+    <text name="nameLabel" extra="true">
+    <text>Amiga 500</text>
+  </text>
+</view>    
+
+<view name="system">
+  <text name="sys_line2" extra="true">
+    <text>Amiga 500</text>
+  </text>    
+  <text name="shortdescription" extra="true">
+   <text>1987  ·  Home Computer</text>
+  </text>
+  <text name="longdescription" extra="true">
+   <text>The Amiga 500 contains the same Motorola 68000 as the Amiga 1000, as well as the same graphics and sound coprocessors, but is in a smaller case similar to that of the Commodore 128</text>
+  </text>
+ </view>
+</theme>

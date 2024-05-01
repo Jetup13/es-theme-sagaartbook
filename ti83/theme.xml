@@ -1,0 +1,23 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, video, grid">
+    <text name="nameLabel" extra="true">
+    <text>TI-83</text>
+  </text>
+</view>    
+
+<view name="system">
+  <text name="sys_line2" extra="true">
+    <text>TI-83</text>
+
+  </text>    
+  <text name="shortdescription" extra="true">
+   <text>1996  ·  Calculator</text>
+  </text>
+  <text name="longdescription" extra="true">
+   <text>The TI-83 series is a series of graphing calculators manufactured by Texas Instruments</text>
+  </text>
+ </view>
+</theme>
