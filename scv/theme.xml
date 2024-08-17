@@ -1,0 +1,27 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, video, grid">
+  <text name="nameLabel" extra="true">
+    <text>Cassette Vision</text>
+  </text>
+</view>    
+
+<view name="system">
+  <text name="sys_line1" extra="true">
+    <text>EPOCH</text>
+
+  </text>
+  <text name="sys_line2" extra="true">
+    <text>Cassette Vision</text>
+
+</text>
+  <text name="shortdescription" extra="true">
+   <text>1984  ·  Home Console</text>
+  </text>
+  <text name="longdescription" extra="true">
+   <text>The Super Cassette Vision was released in 1984 as the successor to Epoch's Cassette Vision</text>
+  </text>
+ </view>
+</theme>
